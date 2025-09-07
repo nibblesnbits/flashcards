@@ -567,7 +567,7 @@ const FlashcardApp = ({ initialCards = sampleCards }) => {
           
           .arabic-text {
             font-size: 1.8rem;
-            font-family: 'Traditional Arabic', 'Arial Unicode MS', serif;
+            font-family: 'Noto Sans Arabic', 'Arial Unicode MS', serif;
           }
           
           .romanization {
