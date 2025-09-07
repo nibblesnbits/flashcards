@@ -561,7 +561,6 @@ const FlashcardApp = ({ initialCards = sampleCards }) => {
           
           .main-text {
             font-size: 1.5rem;
-            font-weight: bold;
             margin: 0.5rem 0;
           }
           
@@ -832,13 +831,12 @@ const FlashcardApp = ({ initialCards = sampleCards }) => {
         
         .main-text {
           font-size: 2rem;
-          font-weight: bold;
           margin: 1rem 0;
         }
         
         .arabic-text {
           font-size: 2.5rem;
-          font-family: 'Traditional Arabic', 'Arial Unicode MS', serif;
+          font-family: 'Noto Sans Arabic', 'Arial Unicode MS', serif;
         }
         
         .romanization {
