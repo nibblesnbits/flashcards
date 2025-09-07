@@ -4,52 +4,184 @@ import { ChevronLeft, ChevronRight, RotateCcw, Shuffle, BookOpen } from 'lucide-
 // Sample data structure - will be replaced by localStorage data
 const sampleCards = [
   {
-    id: 1,
-    english: "Hello",
-    arabic: "أهلا",
-    romanization: "Ahlan"
+    "id": 1,
+    "english": "Hello",
+    "arabic": "أهلا",
+    "romanization": "Ahlan"
   },
   {
-    id: 2,
-    english: "Thank you",
-    arabic: "شكرا",
-    romanization: "Shokran"
+    "id": 2,
+    "english": "Thank you",
+    "arabic": "شكرا",
+    "romanization": "Shokran"
   },
   {
-    id: 3,
-    english: "Goodbye",
-    arabic: "سلام",
-    romanization: "Salam"
+    "id": 3,
+    "english": "Goodbye",
+    "arabic": "سلام",
+    "romanization": "Salam"
   },
   {
-    id: 4,
-    english: "Please",
-    arabic: "لو سمحت",
-    romanization: "Law samaḥt"
+    "id": 4,
+    "english": "Please",
+    "arabic": "لو سمحت",
+    "romanization": "Law samaḥt"
   },
   {
-    id: 5,
-    english: "Water",
-    arabic: "مية",
-    romanization: "Mayya"
+    "id": 5,
+    "english": "water",
+    "arabic": "مية",
+    "romanization": "Mayya"
   },
   {
-    id: 6,
-    english: "Food",
-    arabic: "أكل",
-    romanization: "Akl"
+    "id": 6,
+    "english": "food",
+    "arabic": "أكل",
+    "romanization": "Akl"
   },
   {
-    id: 7,
-    english: "House",
-    arabic: "بيت",
-    romanization: "Beet"
+    "id": 7,
+    "english": "house",
+    "arabic": "بيت",
+    "romanization": "Beet"
   },
   {
-    id: 8,
-    english: "Book",
-    arabic: "كتاب",
-    romanization: "Kitab"
+    "id": 8,
+    "english": "book",
+    "arabic": "كتاب",
+    "romanization": "Kitab"
+  },
+  {
+    "english": "car",
+    "arabic": "سَيّارة",
+    "romanization": "say'ye-ro",
+    "id": 9
+  },
+  {
+    "english": "spacious",
+    "arabic": "واسِعة",
+    "romanization": "wāsiʿa",
+    "id": 10
+  },
+  {
+    "english": "university",
+    "arabic": "جامِعة",
+    "romanization": "jāmiʿa",
+    "id": 11
+  },
+  {
+    "english": "Germany",
+    "arabic": "أَلْمانْيا",
+    "romanization": "Al-mānyā",
+    "id": 12
+  },
+  {
+    "english": "cold",
+    "arabic": "وَبارِد",
+    "romanization": "wa-bārid",
+    "id": 13
+  },
+  {
+    "english": "Garage",
+    "arabic": "اَلْكَراج",
+    "romanization": "al-karāj",
+    "id": 14
+  },
+  {
+    "english": "spacious",
+    "arabic": "واسِعة",
+    "romanization": "wāsiʿa",
+    "id": 15
+  },
+  {
+    "english": "thing",
+    "arabic": "شَيْء",
+    "romanization": "shayʾ",
+    "id": 16
+  },
+  {
+    "english": "new",
+    "arabic": "جَديد",
+    "romanization": "jadīd",
+    "id": 17
+  },
+  {
+    "english": "lawyer",
+    "arabic": "مُحامي",
+    "romanization": "muḥāmī",
+    "id": 18
+  },
+  {
+    "english": "teacher",
+    "arabic": "اَلْأُسْتاذ",
+    "romanization": "al-ʾustādh",
+    "id": 19
+  },
+  {
+    "english": "smart",
+    "arabic": "ذَكِيّ",
+    "romanization": "dhakī",
+    "id": 20
+  },
+  {
+    "english": "famous",
+    "arabic": "مَشْهورة",
+    "romanization": "mashhūra",
+    "id": 21
+  },
+  {
+    "english": "engineer",
+    "arabic": "مُهَنْدِسة",
+    "romanization": "muhandisa",
+    "id": 22
+  },
+  {
+    "english": "famous",
+    "arabic": "مَشْهورة",
+    "romanization": "mashhūra",
+    "id": 23
+  },
+  {
+    "english": "important",
+    "arabic": "مُهِمّة",
+    "romanization": "muhimma",
+    "id": 24
+  },
+  {
+    "english": "teacher",
+    "arabic": "اَلْمُعَلِّم",
+    "romanization": "al-muʿallim",
+    "id": 25
+  },
+  {
+    "english": "language",
+    "arabic": "لُغة",
+    "romanization": "luġa",
+    "id": 26
+  },
+  {
+    "english": "crowded",
+    "arabic": "مزدحم",
+    "romanization": "muzdahim",
+    "id": 27
+  },
+  {
+    "english": "room",
+    "arabic": "غرفة",
+    "romanization": "ghurfa",
+    "id": 28
+  },
+  {
+    "english": "building",
+    "arabic": "بِناية",
+    "romanization": "bināya",
+    "id": 29
+  },
+  {
+    "english": "easy",
+    "arabic": "سَهلة",
+    "romanization": "sahla",
+    "id": 30
   }
 ];
 
